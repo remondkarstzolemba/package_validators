@@ -1,0 +1,19 @@
+{
+    "name": "nzz/package_validators",
+    "description": "Validators",
+    "authors": [
+        {
+            "name": "NZZ"
+        }
+    ],
+    "license": "proprietary",
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "nzz\\validators\\": "src"
+        }
+    }
+}
